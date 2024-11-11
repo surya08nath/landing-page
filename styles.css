@@ -80,7 +80,7 @@ button{
     border-radius: 10px;
     color: #F9FAF8;
     font-size: 18px;
-    border: none;
+    border: solid 1px white;
 }
 
 .images{
@@ -149,4 +149,29 @@ button{
     right: 0;
     font-size: 33px;
     font-weight: 700;
+}
+
+.white2{
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+}
+.blue{
+    display: flex;
+    justify-content: space-between;
+    background-color: #3882F6;
+    max-width: auto;
+    margin: 100px;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+    gap: 30px;
+}
+.thick{
+    font-size: 25px;
+    color: whitesmoke;
+}
+.thin{
+    font-size: 18px;
+    color: whitesmoke;
 }
