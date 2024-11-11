@@ -82,3 +82,40 @@ button{
     font-size: 18px;
     border: none;
 }
+
+.images{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.pic{
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.random{
+    display: block;
+    max-width: 150px;
+}
+
+.infoheader{
+    font-weight: 900;
+    font-size: 36px;
+    color: #1F2937;
+    text-align: center;
+}
+
+.white1{
+    padding: 20px;
+}
+
+.random p{
+    text-align: center;
+}
