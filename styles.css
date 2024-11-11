@@ -37,18 +37,14 @@ a,.subhero{
     padding-right: 200px;
 }
 
-.gray{
-    display: flex;
-    flex: 1;
-    background-color: gray;
-    padding: 100px;
-    justify-content: center;
-    align-items: center;
-    margin-left: 150px;
+.coffee{
+    max-height: 350px;
+    max-width: 100%;
 
 }
 .second{
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
     padding-left: 200px;
@@ -65,13 +61,16 @@ a,.subhero{
     font-size: 48px;
     color: #F9FAF8;
     margin-bottom: 0;
+    flex: 1 1 auto;
 
 }
 .subhero{
     margin-top: 0;
 }
 .subsecond{
+    display: flex;
     max-width: 450px;
+    flex-direction: column;
 }
 
 button{
