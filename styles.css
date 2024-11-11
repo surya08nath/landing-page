@@ -92,6 +92,7 @@ button{
     padding-right: 150px;
     padding-top: 80px;
     padding-bottom: 80px;
+    flex-wrap: wrap;
 }
 
 .pic{
@@ -174,4 +175,16 @@ button{
 .thin{
     font-size: 18px;
     color: whitesmoke;
+}
+
+.copy{
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    
+}
+.copy p{
+    color: #F9FAF8;
+    align-items: center;
 }
